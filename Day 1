@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio | Home</title>
+</head>
+<body>
+
+<header>
+    <h1>Prabhdeep Singh</h1>
+    <p>Welcome to my Personal Portfolio</p>
+</header>
+
+<main>
+
+    <section>
+        <h2>About Me</h2>
+        <p>Hello! I am Prabhdeep Singh, a student of Information Technology at NIT Raipur.
+          My hobbies are playing cricket,badminton and solving rubix cubes.
+        </p>
+        <img src="https://pixabay.com/photos/siguniang-mountain-yaomeifeng-8568913/" alt="Profile Image" width="200">
+    </section>
+
+    <section>
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>Basic Python</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>My Projects</h2>
+        <article>
+            <h3>Project 1 – TCP 30 Day challenge</h3>
+            <p>A simple portfolio created on GitHub using pure HTML.</p>
+        </article>
+    </section>
+
+    <section>
+        <h2>My Video :)</h2>
+        <iframe width="560" height="315" 
+src="https://www.youtube.com/embed/pSee9BQBZIk" 
+title="YouTube video player" frameborder="0" 
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+allowfullscreen>
+       </iframe>
+
+    </section>
+
+    <blockquote>
+        "Success is not final; failure is not fatal — it is the courage to continue that counts."
+        <br>
+        <cite>- Winston Churchill</cite>
+    </blockquote>
+
+
+</main>
+
+<footer>
+    <p>This is a Footer.</p>
+</footer>
+
+</body>
+</html>
