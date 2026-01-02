@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>EVENT SHEDULE</title>
+
+</head>
+
+<body>
+
+     
+
+    <header>
+
+
+
+    <!-- Page Title -->
+
+    <h1>MAIN TABLE HEADING</h1>
+
+    <h2>Sub TABLE HEADING</h2>
+
+    <h3>Sub-Sub TABLE HEADING</h3>
+
+
+
+    <!-- Event Schedule Table -->
+
+    <table border="1">
+
+        
+
+        <!-- Table Headings --> 
+
+        <thead>
+
+            <tr>
+
+                <th>ROW1</th>
+
+                <th>ROW2</th>
+
+                <th>ROW3</th>
+
+            </tr>
+
+        </thead>
+
+
+
+        <!-- Table Body -->
+
+        <tbody>
+
+            <tr>
+
+                <td>ROW1 CONTENT 1</td>
+
+                <td>ROW2 CONTENT 1</td>
+
+                <td>ROW3 CONTENT 1</td>
+
+            </tr>
+
+
+
+<tr>
+
+                <td>ROW1 CONTENT 2</td>
+
+                <td>ROW2 CONTENT 2</td>
+
+                <td>ROW3 CONTENT 2</td>
+
+            </tr>
+
+<tr>
+
+                <td>ROW1 CONTENT 3</td>
+
+                <td>ROW2 CONTENT 3</td>
+
+                <td>ROW3 CONTENT 3</td>
+
+            </tr>
+
+
+        </tbody>
+
+
+
+        </header>
+
+        
+
+        
+        
+
+    </table> 
+
+
+
+    <!-- thanking  -->
+
+      <h1>THANKYOU </h1>
+
+
+
+
+
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+
+</head>
+
+<body>
+
+    
+
+    
+    <form action="/action.php">
+
+        
+
+        <!-- Name  -->
+
+        <label for="name">Full Name:</label><br>
+
+        <input type="text" placeholder="YOUR NAME">
+
+        <br><br>
+
+
+
+        <label for="Email Address:">Email Address</label>:</label><br>
+
+        <input type="text" placeholder="Your Email here">
+
+        <br><br>
+
+
+
+        <label for="contact nuber">Mobile Number:</label><br>
+
+        <input type="text" placeholder="Mobile Number here">
+
+        <br><br>
+
+
+
+        <label for="age">Your Age:</label><br>
+
+        <input type="text" placeholder="Your Age">
+
+        <br>
+
+
+
+
+
+        <h1>Single Oprion</h1>
+
+        <label for="101">
+
+            <input type="radio" value="1st" name="class" id="101">1st
+        </label>
+
+
+
+        <br>
+
+        <label for="102">
+
+            <input type="radio" value="2nd" name="class" id="102">2nd
+        </label>
+
+        <br>
+
+
+
+        <label for="103">
+
+            <input type="radio" value="3rd" name="class" id="103">3rd
+        </label>
+
+        <br>
+
+
+
+        <label for="104">
+
+            <input type="radio" value="4th" name="class" id="104">4th
+        </label>
+
+
+
+         <h1>Multi Option</h1>
+
+
+
+        <label for="101">
+
+            <input type="checkbox" value="1st" name="subject"  id="101">1st
+
+        </label>
+
+        <br>
+
+
+
+        <label for="102">
+
+            <input type="checkbox" value="2nd" name="subject"  id="102"> 2nd
+        </label>
+
+        <br>
+
+
+
+        <label for="103">
+
+            <input type="checkbox" value="3rd" name="subject"  id="103">3rd
+        </label>
+
+        <br>
+
+
+
+        <label for="104">
+
+            <input type="checkbox" value="4th" name="subject"  id="103">4th
+
+        </label>
+
+
+
+        <br><br>
+
+        <!-- select date  -->
+
+        <select event date="selct date">
+
+            <option value="2ndh Jan 2026">2nd Jan 2026</option>
+
+            <option value="3rd Jan 2026">3rd  Jan 2026</option>
+
+            <option value="4tg Jan 2026">4th Jan 2026</option>
+
+            
+
+        </select>
+
+        
+
+        <br><br>
+
+        <textarea name ="comments" id="101" placeholder="please give the feedback"
+
+            rows="3"> comments
+
+        </textarea>
+
+
+
+        <br>
+
+
+
+        <input type="submit" vaue="submit">
+
+        
+
+    </form>
+
+</body>
+
+</html>
